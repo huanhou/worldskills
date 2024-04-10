@@ -1,0 +1,293 @@
+header {
+  top: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #67317d;
+}
+
+header a {
+  color: black;
+}
+.logo {
+  margin-left: 30px;
+}
+
+.first {
+  margin-left: 100%;
+}
+
+header a {
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+footer {
+  bottom: 0;
+  background-color: #67317d;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+}
+
+.indigo {
+  color: #67317d;
+}
+
+.white {
+  color: white;
+}
+
+.indigo-container {
+  background-color: #67317d;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+.resize {
+  width: 400px;
+  height: 400px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+section {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+p {
+  font-size: 20px;
+}
+.img {
+  width: 50%;
+}
+
+.hero-section {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+button {
+  color: white;
+  background-color: #67317d;
+  border-radius: 15px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.whitebtn {
+  color: #67317d;
+  background-color: white;
+  border-color: #67317d;
+  border: 3px solid;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+button a {
+  color: white;
+}
+
+.whitebtn a {
+  color: #67317d;
+}
+.tobuy a {
+  color: black;
+}
+
+.active {
+  color: #67317d;
+  font-weight: 600;
+}
+
+.teammate {
+  width: 200px;
+}
+
+.member {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.member .right {
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.member h2 {
+  text-align: center;
+}
+
+.team {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.value {
+  width: 250px;
+  border: 3px solid #67317d;
+  border-radius: 7px;
+  padding: 50px;
+  margin: 30px;
+  height: 380px;
+}
+
+.ofvalue {
+  flex-wrap: wrap;
+}
+
+.valueimg {
+  width: 250px;
+}
+
+.hero {
+  margin-top: 30px;
+}
+
+.resizing {
+  width: 350px;
+  height: 350px;
+}
+
+span {
+  color: gold;
+}
+
+.price {
+  width: 400px;
+}
+
+.price button {
+  padding: 10px 10px;
+}
+
+.product {
+  margin-top: 70px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  header a {
+    margin: 5px;
+  }
+
+  .team {
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .member {
+    width: 100%;
+  }
+
+  .values h1 {
+    text-align: center;
+  }
+
+  .value {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+
+  .value p {
+    font-size: 17px;
+  }
+
+  .pricing {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .product .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 360px) {
+  .member {
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+
+  .team {
+    margin: 100px 0 0 0;
+    padding: 0;
+  }
+
+  header a,
+  .logo,
+  .first {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .values {
+    padding: 2px;
+  }
+
+  .pricing {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .price {
+    width: 350px;
+  }
+  .resizing {
+    width: 350px;
+  }
+  .product .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

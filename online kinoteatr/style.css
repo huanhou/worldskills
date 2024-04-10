@@ -1,0 +1,207 @@
+header {
+  top: 0;
+  background-color: #163a24;
+  color: white;
+  display: flex;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.finish {
+  margin-top: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+header p {
+  margin-right: 10px;
+}
+
+.righter {
+  float: right;
+  margin-left: auto;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.oii {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  padding: 20px 80px;
+}
+
+img {
+  width: 100%;
+}
+
+.second {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.img {
+  width: 738px;
+  height: auto;
+}
+
+.green-section {
+  background-color: #163a24;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.green {
+  color: #163a24;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65.25px;
+  text-align: left;
+}
+
+.beige-section {
+  background-color: #f2efe6;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Recoleta", sans-serif;
+}
+
+.btn {
+  background-color: #198c36;
+  width: 141px;
+  height: 50px;
+  top: -14.5px;
+  left: 439px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 160px;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer a,
+.privacypolicy {
+  color: #198c36;
+}
+
+.top {
+  padding-top: 20px;
+}
+
+.line {
+  width: 590px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+}
+
+.tired {
+  justify-content: space-between;
+}
+
+.feature p {
+  color: white;
+}
+
+.terms {
+  margin-left: auto;
+}
+
+.terms a {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    display: none;
+  }
+  .logo,
+  .finish {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  footer a {
+    font-size: 13px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
